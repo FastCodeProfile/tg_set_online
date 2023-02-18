@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tg-set-online"
+version = "0.1.0"
+description = ""
+authors = ["fastcode <fast.code.auth@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tg_set_online"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+telethon = "^1.27.0"
+python-dotenv = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
